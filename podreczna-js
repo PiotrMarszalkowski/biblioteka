@@ -8,3 +8,18 @@ function retirement(reAge){
         console.log((reAge - age) + a);
     }
 }
+
+Inna fukncja zawierająca funkcję
+
+function interviewQ(job){
+    return function(name){
+        if (job === 'designer'){
+            console.log(name + ' fajnie że jesteś designerem');
+        } else if (job === 'teacher'){
+            console.log(name + ' fajnie że jesteś teacherem');
+        } else {
+            console.log(name + ' nie wiem co to za zawód ' + job);
+    }
+}
+}
+
