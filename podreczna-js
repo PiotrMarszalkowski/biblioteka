@@ -1,1 +1,9 @@
+// Funkcja w funkcji, która przyjmuje 2 warunki równolegle. Funkcja dotyczy obliczania ile lat pozostało do emerytury.
 
+function retirement(reAge){
+    var a = ' years left until retirement';
+    return function(yearBirth){
+        var age = 2016 - yearBirth;
+        console.log((reAge - age) + a);
+    }
+}
