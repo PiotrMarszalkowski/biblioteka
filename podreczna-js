@@ -1,4 +1,5 @@
-// Funkcja w funkcji, która przyjmuje 2 warunki równolegle. Funkcja dotyczy obliczania ile lat pozostało do emerytury.
+// Funkcja w funkcji, która przyjmuje 2 warunki równolegle. Funkcja dotyczy obliczania ile lat pozostało do emerytury. 
+--> Aby funkcja działała trzeba podać retirement(wiek emerytalny w latach)(rok urodzin)
 
 function retirement(reAge){
     var a = ' years left until retirement';
