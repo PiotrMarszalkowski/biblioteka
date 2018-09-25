@@ -9,7 +9,7 @@ function retirement(reAge){
     }
 }
 
-Inna fukncja zawierająca funkcję
+// Inna fukncja zawierająca funkcję
 
 function interviewQ(job){
     return function(name){
